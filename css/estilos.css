@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&family=Macondo+Swash+Caps&display=swap');
+
+/**/
+
+body {background-color: #000000}
+h1 {color: #FFD700;
+    text-align: center;
+    font-family: "Macondo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    text-decoration: underline;}
+h3 {color: #FFD700;
+    font-family: "Macondo Swash Caps", cursive;}
+h4 {color: #FFD700;
+    font-family: "Bebas Neue", sans-serif;}
+.paragraph {color: #DAA520;}
+p {color: #FFA500;
+   font-family: "Bebas Neue", sans-serif;}
+nav {background-color: #808080;
+     padding: 15px;
+     margin: auto;
+   width: 80%;}
+.fuente {color: #696969;}
+.altura {height: 47vh;}
+.alturacarr {height: 60vh;}
+.bioshock {color: black;}
+          .bio {color: #FFA500;}
+
+.micarrousel {width: 70%;
+              height: 45%;
+              align-self: center;}
+.especial {position: fixed;
+           right: 4%;
+           top: 10%;}
+.oscuro {display: none;}
+
+                                               /*estilos con flex-box y demas*/
+.boton-flotante {position: fixed;
+                  background-color: white;
+                  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: right;
+              bottom: 60%;
+            right: 5%;
+          border-radius: 50px;
+        font-size: 5px;
+      width: 4vw;}
+.boton-flotante:hover {background-color: #45a049}
+
+.pie-de-pagina {text-align: center;}
+footer {display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;}
+         .icono1 {align-self: center;}
+nav {display: flex;
+    justify-content: center;}
+.navegacion {text-align: center;
+             justify-content: space-between;}
+.inicio {position: fixed;
+         text-align: right;
+         bottom: 35%;
+         right: 4%;}
+.cuatro {display: flex;
+                 flex-wrap: wrap;
+                 justify-content: space-around;}
+.cuatro img {flex: 1 1 calc(50% - 10px);
+             margin: 5px;
+             max-width: 100%;
+             box-sizing: border-box;}
+             .rivendel {align-self: center;
+                        text-align: center;}
+             .star  {align-self: center;
+                     text-align: center;}
+             .casadragon  {align-self: center;
+                           text-align: center;}
+             .gladiador  {align-self: center;
+                          text-align: center;}
+.you {display: flex;
+      align-items: center;
+      justify-content: space-around;}
+.form {display: flex;
+       justify-content: center;}
+
+                                        /* edicion con pseudo-clases*/
+
+a {transition: transform 0.1s ease; width: 10vw;}
+a:hover {background-color: #FFD700;}
+a:active {transform: scale(120%);}
+
+                                     /*edicion con unidades de tamaño relativas*/
+
+.icon {width: 4vw;}
+.wasap-img {width: 4vw;}
+.four {width: 40vw;
+       height: 38vh}
+
+                                       /*media queries*/
+
+@media (max-width: 600px) {
+.four {width: 40vw; height: 12vh;} iframe {width: 40vw; height: 12vh;} .alturacarr {width: 70vw; height: 25vh;}
+.boton-flotante {width: 5vw; height: 5vh;} .wasap-img {width: 7vw; height: 5vh;} .forms {width: 80vw; height: 60vh;}
+}
+@media (min-width: 601px) {
+.dispositivomovil {display: none;}
+}
